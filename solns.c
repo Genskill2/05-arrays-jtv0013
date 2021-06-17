@@ -63,7 +63,6 @@ int count;
 int m=0;
 int t;
 
-
 for(count = 2; num > 1; count++)  
 {  
 while(num%count == 0)  
