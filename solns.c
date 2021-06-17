@@ -1,5 +1,4 @@
 /* Enter your solutions in this file */
-
 #include <stdio.h>
 
 
@@ -75,8 +74,6 @@ f[m]=count;
 m=m+1;
 }
 }
-
-
 return(m);
 }
 
