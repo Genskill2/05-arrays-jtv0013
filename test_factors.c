@@ -3,6 +3,31 @@
 
 
 int factors(int, int []);
+int factors(int num, int f[])
+{
+
+int count;
+
+int m=0;
+int t;
+
+
+for(count = 2; num > 1; count++)  
+{  
+while(num%count == 0)  
+{  
+
+num = num / count;  
+
+
+f[m]=count;
+m=m+1;
+}
+}
+
+
+return(m);
+}
 
 int main(void) {
   int ret[100] = {0};
