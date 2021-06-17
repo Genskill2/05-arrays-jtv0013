@@ -3,6 +3,16 @@
 
 
 float average(int [], int);
+float average(int x[], int n)
+{
+int sum=0;
+for(int i=0;i<n;i++)
+{
+sum=sum+x[i];
+}
+float avg= sum/n;
+return(avg);
+}
 
 int main(void) {
   int x[] = {9,5,6,10,2,-3,4};
